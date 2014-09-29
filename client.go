@@ -2,12 +2,13 @@ package twitterstream
 
 import (
 	"fmt"
-	"github.com/garyburd/go-oauth/oauth"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strings"
 	"time"
+
+	"github.com/garyburd/go-oauth/oauth"
 )
 
 const (
