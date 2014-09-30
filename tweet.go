@@ -131,4 +131,6 @@ type Tweet struct {
 
 	// The user who posted this Tweet.
 	User User `json:"user"`
+
+	Lang string `json:"lang"`
 }
